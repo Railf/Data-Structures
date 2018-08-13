@@ -12,6 +12,7 @@
 		E4F7990521221D78004804BF /* stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4F798FF21221D78004804BF /* stack.cpp */; };
 		E4F7990721221D78004804BF /* queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4F7990121221D78004804BF /* queue.cpp */; };
 		E4F7990A21221F14004804BF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4F7990921221F14004804BF /* main.cpp */; };
+		E4F7990D2122206C004804BF /* vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4F7990B2122206C004804BF /* vector.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,8 @@
 		E4F7990121221D78004804BF /* queue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = queue.cpp; sourceTree = "<group>"; };
 		E4F7990221221D78004804BF /* stack.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = stack.hpp; sourceTree = "<group>"; };
 		E4F7990921221F14004804BF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E4F7990B2122206C004804BF /* vector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = vector.cpp; sourceTree = "<group>"; };
+		E4F7990C2122206C004804BF /* vector.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = vector.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 				E4F798FF21221D78004804BF /* stack.cpp */,
 				E4F7990221221D78004804BF /* stack.hpp */,
 				E4F7990921221F14004804BF /* main.cpp */,
+				E4F7990B2122206C004804BF /* vector.cpp */,
+				E4F7990C2122206C004804BF /* vector.hpp */,
 			);
 			path = "Data-Structures";
 			sourceTree = "<group>";
@@ -140,6 +145,7 @@
 			files = (
 				E4F7990521221D78004804BF /* stack.cpp in Sources */,
 				E4F7990421221D78004804BF /* linkedlist.cpp in Sources */,
+				E4F7990D2122206C004804BF /* vector.cpp in Sources */,
 				E4F7990A21221F14004804BF /* main.cpp in Sources */,
 				E4F7990321221D78004804BF /* doublelinkedlist.cpp in Sources */,
 				E4F7990721221D78004804BF /* queue.cpp in Sources */,
