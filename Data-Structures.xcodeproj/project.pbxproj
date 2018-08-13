@@ -10,7 +10,6 @@
 		E4F7990321221D78004804BF /* doublelinkedlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4F798FB21221D77004804BF /* doublelinkedlist.cpp */; };
 		E4F7990421221D78004804BF /* linkedlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4F798FD21221D77004804BF /* linkedlist.cpp */; };
 		E4F7990521221D78004804BF /* stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4F798FF21221D78004804BF /* stack.cpp */; };
-		E4F7990621221D78004804BF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4F7990021221D78004804BF /* main.cpp */; };
 		E4F7990721221D78004804BF /* queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4F7990121221D78004804BF /* queue.cpp */; };
 		E4F7990A21221F14004804BF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4F7990921221F14004804BF /* main.cpp */; };
 /* End PBXBuildFile section */
@@ -35,7 +34,6 @@
 		E4F798FD21221D77004804BF /* linkedlist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = linkedlist.cpp; sourceTree = "<group>"; };
 		E4F798FE21221D77004804BF /* linkedlist.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = linkedlist.hpp; sourceTree = "<group>"; };
 		E4F798FF21221D78004804BF /* stack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stack.cpp; sourceTree = "<group>"; };
-		E4F7990021221D78004804BF /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "../../../../Downloads/Data-Structures-master/main.cpp"; sourceTree = "<group>"; };
 		E4F7990121221D78004804BF /* queue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = queue.cpp; sourceTree = "<group>"; };
 		E4F7990221221D78004804BF /* stack.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = stack.hpp; sourceTree = "<group>"; };
 		E4F7990921221F14004804BF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -79,7 +77,6 @@
 				E4F798FA21221D77004804BF /* queue.hpp */,
 				E4F798FF21221D78004804BF /* stack.cpp */,
 				E4F7990221221D78004804BF /* stack.hpp */,
-				E4F7990021221D78004804BF /* main.cpp */,
 				E4F7990921221F14004804BF /* main.cpp */,
 			);
 			path = "Data-Structures";
@@ -144,7 +141,6 @@
 				E4F7990521221D78004804BF /* stack.cpp in Sources */,
 				E4F7990421221D78004804BF /* linkedlist.cpp in Sources */,
 				E4F7990A21221F14004804BF /* main.cpp in Sources */,
-				E4F7990621221D78004804BF /* main.cpp in Sources */,
 				E4F7990321221D78004804BF /* doublelinkedlist.cpp in Sources */,
 				E4F7990721221D78004804BF /* queue.cpp in Sources */,
 			);
