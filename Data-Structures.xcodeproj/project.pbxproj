@@ -73,11 +73,11 @@
 				E4F798FC21221D77004804BF /* doublelinkedlist.hpp */,
 				E4F798FD21221D77004804BF /* linkedlist.cpp */,
 				E4F798FE21221D77004804BF /* linkedlist.hpp */,
-				E4F7990021221D78004804BF /* main.cpp */,
 				E4F7990121221D78004804BF /* queue.cpp */,
 				E4F798FA21221D77004804BF /* queue.hpp */,
 				E4F798FF21221D78004804BF /* stack.cpp */,
 				E4F7990221221D78004804BF /* stack.hpp */,
+				E4F7990021221D78004804BF /* main.cpp */,
 			);
 			path = "Data-Structures";
 			sourceTree = "<group>";
