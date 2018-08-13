@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E4F798F421221D2D004804BF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4F798F321221D2D004804BF /* main.cpp */; };
+		E4F7990321221D78004804BF /* doublelinkedlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4F798FB21221D77004804BF /* doublelinkedlist.cpp */; };
+		E4F7990421221D78004804BF /* linkedlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4F798FD21221D77004804BF /* linkedlist.cpp */; };
+		E4F7990521221D78004804BF /* stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4F798FF21221D78004804BF /* stack.cpp */; };
+		E4F7990621221D78004804BF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4F7990021221D78004804BF /* main.cpp */; };
+		E4F7990721221D78004804BF /* queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4F7990121221D78004804BF /* queue.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +28,15 @@
 
 /* Begin PBXFileReference section */
 		E4F798F021221D2D004804BF /* Data-Structures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Data-Structures"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4F798F321221D2D004804BF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E4F798FA21221D77004804BF /* queue.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = queue.hpp; sourceTree = "<group>"; };
+		E4F798FB21221D77004804BF /* doublelinkedlist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = doublelinkedlist.cpp; sourceTree = "<group>"; };
+		E4F798FC21221D77004804BF /* doublelinkedlist.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = doublelinkedlist.hpp; sourceTree = "<group>"; };
+		E4F798FD21221D77004804BF /* linkedlist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = linkedlist.cpp; sourceTree = "<group>"; };
+		E4F798FE21221D77004804BF /* linkedlist.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = linkedlist.hpp; sourceTree = "<group>"; };
+		E4F798FF21221D78004804BF /* stack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stack.cpp; sourceTree = "<group>"; };
+		E4F7990021221D78004804BF /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "../../../../Downloads/Data-Structures-master/main.cpp"; sourceTree = "<group>"; };
+		E4F7990121221D78004804BF /* queue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = queue.cpp; sourceTree = "<group>"; };
+		E4F7990221221D78004804BF /* stack.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = stack.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +69,15 @@
 		E4F798F221221D2D004804BF /* Data-Structures */ = {
 			isa = PBXGroup;
 			children = (
-				E4F798F321221D2D004804BF /* main.cpp */,
+				E4F798FB21221D77004804BF /* doublelinkedlist.cpp */,
+				E4F798FC21221D77004804BF /* doublelinkedlist.hpp */,
+				E4F798FD21221D77004804BF /* linkedlist.cpp */,
+				E4F798FE21221D77004804BF /* linkedlist.hpp */,
+				E4F7990021221D78004804BF /* main.cpp */,
+				E4F7990121221D78004804BF /* queue.cpp */,
+				E4F798FA21221D77004804BF /* queue.hpp */,
+				E4F798FF21221D78004804BF /* stack.cpp */,
+				E4F7990221221D78004804BF /* stack.hpp */,
 			);
 			path = "Data-Structures";
 			sourceTree = "<group>";
@@ -118,7 +138,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4F798F421221D2D004804BF /* main.cpp in Sources */,
+				E4F7990521221D78004804BF /* stack.cpp in Sources */,
+				E4F7990421221D78004804BF /* linkedlist.cpp in Sources */,
+				E4F7990621221D78004804BF /* main.cpp in Sources */,
+				E4F7990321221D78004804BF /* doublelinkedlist.cpp in Sources */,
+				E4F7990721221D78004804BF /* queue.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
