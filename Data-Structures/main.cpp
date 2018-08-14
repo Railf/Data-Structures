@@ -12,6 +12,7 @@
 #include "queue.hpp"
 #include "linkedlist.hpp"
 #include "doublelinkedlist.hpp"
+#include "vector.hpp"
 
 int main(int argc, const char * argv[]) {
   std::cout << "======================================\n";
@@ -90,5 +91,19 @@ int main(int argc, const char * argv[]) {
   std::cout << "Tail of list: " << dlist.Tail() << '\n';
   std::cout << "Empty?: " << list.Empty() << '\n' << '\n';
   
-  return 0;
+
+  std::cout << "======================================\n";
+  std::cout << "Vector\n";
+  std::cout << "======================================\n";
+  Vector<int> vector;
+  
+  std::cout << "Empty?: " << vector.Empty() << '\n';
+  vector.PushBack(1);
+  vector.PushBack(3);
+  vector.PushBack(4);
+  vector.toString();
+  std::cout << "Front of vector:  " << vector.Front() << '\n';
+  std::cout << "vector[1] output: " << vector[1] << '\n';
+  std::cout << "Back of vector:   " << vector.Back() << '\n';
+  std::cout << "Empty?: " << list.Empty() << '\n' << '\n';
 }
