@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E4CC94242129169800FC15C2 /* tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4CC94222129169800FC15C2 /* tree.cpp */; };
 		E4F7990321221D78004804BF /* doublelinkedlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4F798FB21221D77004804BF /* doublelinkedlist.cpp */; };
 		E4F7990421221D78004804BF /* linkedlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4F798FD21221D77004804BF /* linkedlist.cpp */; };
 		E4F7990521221D78004804BF /* stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4F798FF21221D78004804BF /* stack.cpp */; };
@@ -28,6 +29,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E4CC94222129169800FC15C2 /* tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tree.cpp; sourceTree = "<group>"; };
+		E4CC94232129169800FC15C2 /* tree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = tree.hpp; sourceTree = "<group>"; };
 		E4F798F021221D2D004804BF /* Data-Structures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Data-Structures"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F798FA21221D77004804BF /* queue.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = queue.hpp; sourceTree = "<group>"; };
 		E4F798FB21221D77004804BF /* doublelinkedlist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = doublelinkedlist.cpp; sourceTree = "<group>"; };
@@ -81,6 +84,8 @@
 				E4F798FF21221D78004804BF /* stack.cpp */,
 				E4F7990221221D78004804BF /* stack.hpp */,
 				E4F7990921221F14004804BF /* main.cpp */,
+				E4CC94222129169800FC15C2 /* tree.cpp */,
+				E4CC94232129169800FC15C2 /* tree.hpp */,
 				E4F7990B2122206C004804BF /* vector.cpp */,
 				E4F7990C2122206C004804BF /* vector.hpp */,
 			);
@@ -149,6 +154,7 @@
 				E4F7990A21221F14004804BF /* main.cpp in Sources */,
 				E4F7990321221D78004804BF /* doublelinkedlist.cpp in Sources */,
 				E4F7990721221D78004804BF /* queue.cpp in Sources */,
+				E4CC94242129169800FC15C2 /* tree.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
