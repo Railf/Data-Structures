@@ -6,4 +6,10 @@
 //  Copyright © 2018 Railf. All rights reserved.
 //
 
+#ifndef tree_cpp
+#define tree_cpp
+
 #include "tree.hpp"
+
+
+#endif
