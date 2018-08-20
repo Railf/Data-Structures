@@ -17,11 +17,12 @@ class Tree
   typedef struct Node
   {
     T data_;
+    Node* parent_;
     Node* left_;
     Node* right_;
     
-    Node(): data_(0), left_(nullptr), right_(nullptr){}
-    Node(T data): data_(data), left_(nullptr), right_(nullptr){}
+    Node(): data_(0), parent_(nullptr), left_(nullptr), right_(nullptr){}
+    Node(T data): data_(data), parent_(nullptr), left_(nullptr), right_(nullptr){}
   } *treeNode;
   
   treeNode root_;

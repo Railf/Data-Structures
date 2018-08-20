@@ -115,8 +115,11 @@ int main(int argc, const char * argv[]) {
   Tree<int> tree;
   
   std::cout << "Empty?: " << tree.Empty() << '\n';
-  tree.Push(3);
-  tree.Push(2);
+  tree.Push(7);
+  tree.Push(4);
+  tree.Push(10);
+  tree.Push(5);
+  tree.Push(6);
   tree.Push(4);
   tree.toString();
   std::cout << "Root of tree: " << tree.Root() << '\n';
