@@ -107,21 +107,4 @@ int main(int argc, const char * argv[]) {
   std::cout << "vector[1] output: " << vector[1] << '\n';
   std::cout << "Back of vector:   " << vector.Back() << '\n';
   std::cout << "Empty?: " << vector.Empty() << '\n' << '\n';
-  
-  
-  std::cout << "======================================\n";
-  std::cout << "Tree\n";
-  std::cout << "======================================\n";
-  Tree<int> tree;
-  
-  std::cout << "Empty?: " << tree.Empty() << '\n';
-  tree.Push(7);
-  tree.Push(4);
-  tree.Push(10);
-  tree.Push(5);
-  tree.Push(6);
-  tree.Push(4);
-  tree.toString();
-  std::cout << "Root of tree: " << tree.Root() << '\n';
-  std::cout << "Empty?: " << tree.Empty() << '\n' << '\n';
 }
